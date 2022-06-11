@@ -11,13 +11,11 @@ IIIVmrMLM(fileGen="D:/Users/Genotype",filePhe="D:/Users/Phenotype.csv",method="S
 Two commands below are available to detect QEIs:
 
 library(IIIVmrMLM)
-
 IIIVmrMLM(fileGen="D:/Users/Genotype", filePhe="D:/Users/Phenotype_multi_env.csv", method="Multi_env",trait=1:2,n.en=c(2,2),dir="D:/Users/")
 
 Two commands below are available to detect QQIs:
 
 library(IIIVmrMLM)
-
 IIIVmrMLM(fileGen="D:/Users/Genotype",filePhe="D:/Users/Phenotype.csv",method="Epistasis",trait=c(1:3),dir="D:/Users/")
 
 Some optional parameters in IIIVmrMLM() may be the default, such as fileKin, filePS, PopStrType, fileCov, SearchRadius, svpal, DrawPlot, Plotformat, and Chr_name_com. If users want to adjust these parameters, please refer to the software instruction for details.
