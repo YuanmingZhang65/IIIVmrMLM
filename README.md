@@ -22,8 +22,10 @@ IIIVmrMLM(fileGen="D:/Users/Genotype",filePhe="D:/Users/Phenotype.csv",method="E
 
 Some optional parameters in IIIVmrMLM() may be the default, such as fileKin, filePS, PopStrType, fileCov, SearchRadius, svpal, DrawPlot, Plotformat, and Chr_name_com. If users want to adjust these parameters, please refer to the software instruction for details.
 
+If R version in your computer is R 4.2, please use this software IIIVmrMLM_1.0.zip. If R version in your computer is R 4.1, the previously-uploaded R software IIIVmrMLM_1.0.zip is also available. 
+
 References
 
 Li M, Zhang YW, Zhang ZC, Xiang Y, Liu MH, Zhou YH, Zuo JF, Zhang HQ, Chen Y, Zhang YM (2022a). A compressed variance component mixed model for detecting QTNs and QTN-by-environment and QTN-by-QTN interactions in genome-wide association studies. Molecular Plant 15(4): 630-650.
 
-Li Mei, Zhang Ya-Wen, Xiang Yu, Liu Ming-Hui, Yuan-Ming Zhang. (2022b). IIIVmrMLM: the R and C++ tools associated with 3VmrMLM, a comprehensive GWAS method for dissecting quantitative traits. Molecular Plant, online (2022-06-08), DOI: 10.1016/j.molp.2022.06.002.
+Li Mei, Zhang Ya-Wen, Xiang Yu, Liu Ming-Hui, Yuan-Ming Zhang. (2022b). IIIVmrMLM: The R and C++ tools associated with 3VmrMLM, a comprehensive GWAS method for dissecting quantitative traits. Molecular Plant, online (2022-06-08), DOI: 10.1016/j.molp.2022.06.002.
