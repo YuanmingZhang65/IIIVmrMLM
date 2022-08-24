@@ -28,4 +28,4 @@ References
 
 Li M, Zhang YW, Zhang ZC, Xiang Y, Liu MH, Zhou YH, Zuo JF, Zhang HQ, Chen Y, Zhang YM (2022a). A compressed variance component mixed model for detecting QTNs and QTN-by-environment and QTN-by-QTN interactions in genome-wide association studies. Molecular Plant 15(4): 630-650.
 
-Li Mei, Zhang Ya-Wen, Xiang Yu, Liu Ming-Hui, Yuan-Ming Zhang. (2022b). IIIVmrMLM: The R and C++ tools associated with 3VmrMLM, a comprehensive GWAS method for dissecting quantitative traits. Molecular Plant, online (2022-06-08), DOI: 10.1016/j.molp.2022.06.002.
+Li Mei, Zhang Ya-Wen, Xiang Yu, Liu Ming-Hui, Yuan-Ming Zhang. (2022b). IIIVmrMLM: The R and C++ tools associated with 3VmrMLM, a comprehensive GWAS method for dissecting quantitative traits. Molecular Plant 15(8): 1251-1253.
