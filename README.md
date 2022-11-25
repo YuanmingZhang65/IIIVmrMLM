@@ -3,6 +3,8 @@ IIIVmrMLM - -
 
 Please use the newest software (IIIVmrMLM_1.0.zip) uploaded on 2022-11-25.
 
+If users want to identify QTN-by-environment interactions (QEIs), please use the IIIVmrMLM.QEI software. In this software, multi-environment joint analysis may be used to directly identify QTNs and QEIs (this function is also included in the IIIVmrMLM software), while single-environment analyses under random/fixed SNP-effect models, along with trait differences, regression intercept and coefficient, and environmental variation indicators (range, variance, standard deviation, and coefficient of variation) as phenotypes, are used to indirectly identify QEIs. The software is released on 2022-11-25.
+
 In most existing methods and softwares of genome-wide association studies (GWAS) for detecting quantitative trait nucleotides (QTNs), QTN-by-environment interactions (QEIs), and QTN-by-QTN interactions (QQIs), only allele substitution effect and its interaction-related effects are detected and estimated, conditional on method-specific polygenic background control, leading to confounding in effect estimation and insufficient polygenic background control (Li et al., 2022a,b). To address these issues, we have recently established a compressed variance component mixed model method, 3VmrMLM, to estimate additive and dominant effects and their environmental and epistatic interaction effects conditional on fully controlling all possible polygenic backgrounds (Li et al., 2022a). To facilitate the implement of the 3VmrMLM method in GWAS, we developed IIIVmrMLM as the R and C++ softwares for 3VmrMLM (Li et al., 2022b).
 
 Once the software ( version)  is installed, two commands below are available to detect QTNs:
