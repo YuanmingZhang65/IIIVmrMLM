@@ -1,4 +1,7 @@
 
+
+IIIVmrMLM.zip is uploaded on Nov 16, 2023, which is the linux version of the IIIVmrMLM software and works under the R v4.2.
+
 IIIVmrMLM and mppQTL - - 
 
 Please use the newest software (IIIVmrMLM_1.0.zip) uploaded on 2022-11-25.
