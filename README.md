@@ -5,9 +5,7 @@ Please use the below codes when installing the IIIVmrMLM software online (2025-1
 
 options(timeout = 600)  # To stop after 600 seconds #
 
-download.file("https://github.com/YuanmingZhang65/IIIVmrMLM/raw/main/IIIVmrMLM_1.0.zip","IIIVmrMLM_1.0.zip", mode = "wb")   # To download software #
-
-# The alternative method for downloading software from GitHub #
+download.file("https://github.com/YuanmingZhang65/IIIVmrMLM/raw/main/IIIVmrMLM_1.0.zip","IIIVmrMLM_1.0.zip", mode = "wb")   # To download software. If slow, please use the below method #
 
 # download.file("https://cdn.jsdelivr.net/gh/YuanmingZhang65/IIIVmrMLM@main/IIIVmrMLM_1.0.zip", "IIIVmrMLM_1.0.zip", mode = "wb") #
 
