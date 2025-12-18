@@ -1,13 +1,13 @@
 
 Please use the newest software versions (IIIVmrMLM_R.zip, windows version; IIIVmrMLM.zip, linux version) uploaded on 2025-03-06.
 
-Please use the below codes when installing the IIIVmrMLM software online (2025-12-18):
+Please use the below codes when downloading and installing the IIIVmrMLM software (2025-12-18):
 
 options(timeout = 600)  # To stop after 600 seconds #
 
-download.file("https://github.com/YuanmingZhang65/IIIVmrMLM/raw/main/IIIVmrMLM_1.0.zip","IIIVmrMLM_1.0.zip", mode = "wb")   # To download software. If slow, please use the below method #
+download.file("https://github.com/YuanmingZhang65/IIIVmrMLM/raw/main/IIIVmrMLM_1.0.zip","IIIVmrMLM_1.0.zip", mode = "wb")   # The first method for downloading the software #
 
-# download.file("https://cdn.jsdelivr.net/gh/YuanmingZhang65/IIIVmrMLM@main/IIIVmrMLM_1.0.zip", "IIIVmrMLM_1.0.zip", mode = "wb") #
+download.file("https://cdn.jsdelivr.net/gh/YuanmingZhang65/IIIVmrMLM@main/IIIVmrMLM_1.0.zip", "IIIVmrMLM_1.0.zip", mode = "wb")   # The second method for downloading the software # 
 
 install.packages("IIIVmrMLM_1.0.zip",repos = NULL)  # To install software #
 
