@@ -3,14 +3,17 @@ Please use the newest software versions (IIIVmrMLM_R.zip, windows version; IIIVm
 
 Please use the below codes when installing the IIIVmrMLM software online (2025-12-18):
 
-options(timeout = 600)
+options(timeout = 600)  # To stop after 600 seconds #
 
-download.file("https://github.com/YuanmingZhang65/IIIVmrMLM/raw/main/IIIVmrMLM_1.0.zip", "IIIVmrMLM_1.0.zip", mode = "wb")
+download.file("https://github.com/YuanmingZhang65/IIIVmrMLM/raw/main/IIIVmrMLM_1.0.zip","IIIVmrMLM_1.0.zip", mode = "wb")   # To download software #
 
-install.packages("IIIVmrMLM_1.0.zip",repos = NULL)
+# The alternative method for downloading software from GitHub #
 
-library(IIIVmrMLM)
+# download.file("https://cdn.jsdelivr.net/gh/YuanmingZhang65/IIIVmrMLM@main/IIIVmrMLM_1.0.zip", "IIIVmrMLM_1.0.zip", mode = "wb") #
 
+install.packages("IIIVmrMLM_1.0.zip",repos = NULL)  # To install software #
+
+library(IIIVmrMLM)  # To import the software #
 
 
 If users want to identify QTN-by-environment interactions (QEIs), please use the IIIVmrMLM.QEI software. In this software, multi-environment joint analysis may be used to directly identify QTNs and QEIs (this function is also included in the IIIVmrMLM software), while single-environment analyses under random/fixed SNP-effect models, along with trait differences, regression intercept and coefficient, and environmental variation indicators (range, variance, standard deviation, and coefficient of variation) as phenotypes, are used to indirectly identify QEIs. The software is released on 2022-11-25.
