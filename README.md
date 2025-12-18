@@ -5,7 +5,9 @@ Please use the below codes when installing the IIIVmrMLM software online (2025-1
 
 options(timeout = 600)
 download.file("https://github.com/YuanmingZhang65/IIIVmrMLM/raw/main/IIIVmrMLM_1.0.zip","IIIVmrMLM_1.0.zip", mode = "wb")
+
 install.packages("IIIVmrMLM_1.0.zip",repos = NULL)
+
 library(IIIVmrMLM)
 
 
