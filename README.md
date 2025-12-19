@@ -1,7 +1,7 @@
 
 Please use the newest software versions (IIIVmrMLM_R.zip, windows version; IIIVmrMLM.zip, linux version) uploaded on 2025-03-06.
 
-Please use the below codes when downloading and installing the IIIVmrMLM software (2025-12-18):
+Please use the below codes in R4.5.0 when downloading and installing the IIIVmrMLM software (2025-12-18):
 
 options(timeout = 600)  # To stop after 600 seconds #
 
